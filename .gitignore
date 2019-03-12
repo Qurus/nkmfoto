@@ -1,6 +1,8 @@
 .DS_Store
 .next
 .vscode
+.nowignore
+now.json
 out/
 node_modules
 yarn.lock
