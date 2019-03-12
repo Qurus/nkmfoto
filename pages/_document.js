@@ -14,7 +14,7 @@ export default class CustomDocument extends Document {
       <html class="home-landing">
         <Head>
             <link rel="stylesheet" type="text/css" href="../static/css/fonts/montserrat/montserrat.css" />
-            <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+            <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
             <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css" />
             <link rel="stylesheet" type="text/css" href="../static/css/fonts/fontello/css/fontello.css" />
             <link rel="stylesheet" type="text/css" href="../static/js/jquery.uniform/uniform.default.css" />
