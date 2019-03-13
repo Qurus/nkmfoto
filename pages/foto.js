@@ -42,35 +42,46 @@ export default () => (
                                 <a href="../static/images/home/06.jpg">
                                   <img src="../static/images/home/06.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/07.jpg">
                                   <img src="../static/images/home/07.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/08.jpg">
                                   <img src="../static/images/home/08.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/09.jpg">
                                   <img src="../static/images/home/09.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/10.jpg">
                                   <img src="../static/images/home/10.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/11.jpg">
                                   <img src="../static/images/home/11.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/12.jpg">
                                   <img src="../static/images/home/12.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/13.jpg">
                                   <img src="../static/images/home/13.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/14.jpg">
                                   <img src="../static/images/home/14.jpg" width="500" height="333" alt="image" />
                                 </a>
+                                
                                 <a href="../static/images/home/15.jpg">
                                   <img src="../static/images/home/15.jpg" width="500" height="333" alt="image" />
                                 </a>
+
                                 <a href="../static/images/home/16.jpg">
-                                <img src="../static/images/home/16.jpg" width="500" height="333" alt="image" />                                </a>
+                                <img src="../static/images/home/16.jpg" width="500" height="333" alt="image" />
+                                </a>
                             </div>
 
                             
