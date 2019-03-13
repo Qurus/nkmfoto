@@ -1,5 +1,4 @@
 import Layout from "../components/Layout"
-import CookieConsent, { Cookies } from "react-cookie-consent";
 export default () => (
   
 <Layout>
