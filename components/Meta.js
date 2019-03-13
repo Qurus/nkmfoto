@@ -9,7 +9,7 @@ const Meta = (props) => (
             <NextSeo
                 config={{
                     title: 'NKM Fotostudio Gallus',
-                    description: 'Foto studio. Pass bild. Hochzeit fotografie',
+                    description: 'Foto studio. Pass bild. Hochzeit fotografie und video',
                     openGraph: {
                         type: 'website',
                         locale: 'de_DE',
@@ -19,8 +19,8 @@ const Meta = (props) => (
                 }}
             />
             
-            <link rel="shortcut icon" href="images/ico/favicon.ico" />
-            <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>           
+            
+                      
         </head>
     
 

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "export": "npm run build && next export"
@@ -20,6 +20,7 @@
     "next-routes": "^1.4.2",
     "next-seo": "^1.11.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-images": "^0.5.19"
   }
 }

@@ -5,7 +5,7 @@ export default () => (
 
 <Layout>
 
-    <h1>Überuns</h1>
+    <h1>Kontakt</h1>
 </Layout>
 
 

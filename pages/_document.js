@@ -2,17 +2,18 @@ import Document, {Head, Main, NextScript } from 'next/document';
 import flush from 'styled-jsx/server';
 
 export default class CustomDocument extends Document {
-  static getInitialProps({ renderPage }) {
+  static getInitialProps({ renderPage, pathname }) {
     const { html, head, errorHtml, chunks } = renderPage();
     const styles = flush();
-    
-    return { html, head, errorHtml, chunks, styles };
+    return { html, head, errorHtml, chunks, styles, pathname };
   }
-
   render() {
     return (
-      <html class="home-landing">
+      <html className={this.props.pathname === '/' ? 'home-landing' : ''}>
+
         <Head>
+            <link rel="shortcut icon" href="../static/images/ico/favicon.ico" />
+            <link rel="apple-touch-icon" href="../static/images/ico/apple-touch-icon.png"/> 
             <link rel="stylesheet" type="text/css" href="../static/css/fonts/montserrat/montserrat.css" />
             <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
             <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css" />

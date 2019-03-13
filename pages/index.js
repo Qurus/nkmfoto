@@ -1,23 +1,12 @@
-import React from 'react';
-import Head from "next/head"
-import Meta from "../components/Meta"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import Slider from "../components/Slider"
 import {Link} from '../routes'
+import Layout from "../components/Layout"
+import Slider from "../components/Slider"
+
 
 export default () => (
-<Head>
-<Meta />
-
-<body>
-    <div id="page" class="hfeed site">
-        
-    <Header />
-        <div id="main" class="site-main">
-        
-        
     
+<Layout>
+       
         	<div id="primary" class="content-area">
             	
                 <div id="content" class="site-content" role="main">
@@ -27,9 +16,6 @@ export default () => (
                            <Slider />
                         
                             <div class="intro">
-                            
-                                
-                            
                                 <h2>	
                                     
                                     NKM Fotostudio<br/>
@@ -46,48 +32,21 @@ export default () => (
                                     </span>
     
                                 </h2>
-                                <Link route='about'>
+                                <Link route='gallery'>
                                     <a class="button">Discover</a>
                                 </Link>   
     	
                             </div>
-                          
-                                
-                            
+
                         </div>
-                       
-                        
-                        
-                        
+ 
                     </div>
-                 
-                    
-                    
-                    
-                
-                	
-                	
-                
+
                 </div>
 
                 
             </div>
             
-            
-            
-               
-        
-        
-        
-        
-        </div>
+</Layout>
 
-        <Footer/>  
-	</div>
-    
-    
-    
-
-</body>
-</Head>
 )
