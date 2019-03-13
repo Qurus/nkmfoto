@@ -31,7 +31,7 @@ export default () => (
                                 </a>
                                 
                                 <a href="../static/images/home/04.jpg">
-                                <img src={require('../static/images/home/04.jpg')} width="500" height="352" alt="image" />
+                                <img src="../static/images/home/04.jpg" width="500" height="333" alt="image" />
                                 </a>
                                 
                                 
@@ -70,8 +70,7 @@ export default () => (
                                   <img src="../static/images/home/15.jpg" width="500" height="333" alt="image" />
                                 </a>
                                 <a href="../static/images/home/16.jpg">
-                                <img src={require('../static/images/home/16.jpg')} width="500" height="352" alt="image" />
-                                </a>
+                                <img src="../static/images/home/16.jpg" width="500" height="333" alt="image" />                                </a>
                             </div>
 
                             
