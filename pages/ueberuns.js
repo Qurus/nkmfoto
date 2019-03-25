@@ -83,7 +83,7 @@ export default () => (
                                   
                                         <div class="fun-fact">
                                             <i class="pw-icon-location-outline"></i>
-                                            <h4>72 COUNTRIES VISITED</h4>
+                                            <h4> Many COUNTRIES VISITED</h4>
                                         </div>
                                        
 

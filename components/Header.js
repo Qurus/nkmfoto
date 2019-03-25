@@ -8,7 +8,7 @@ const Header = (props) => (
              
                     <h1 class="site-title">
                         <Link route='/'><a rel="home">
-                            <img src={require("../static/images/site/logo.png")} alt="logo" />
+                            <img src={require("../static/images/site/logo.png")} alt="nkm logo" />
                         </a></Link>
                     </h1>
                    

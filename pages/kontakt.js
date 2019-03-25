@@ -31,18 +31,18 @@ export default () =>  (
                                 <div class="row">
                                     
                                     
-                                        <div class="col-xs-6 col-sm-3">
+                                        <div class="col-xs-12 col-sm-4">
 
                                         
                                             <div class="fun-fact">
                                                 <i class="pw-icon-location-outline"></i>
-                                                <h4>Kriftelerstr. 56A 60326 FRANKFURT</h4>
+                                                <h4>Kriftelerstr. 56A <br /> 60326 FRANKFURT</h4>
                                             </div>
                                             
 
                                         </div>
                                  
-                                        <div class="col-xs-6 col-sm-3">
+                                        <div class="col-xs-12 col-sm-4">
 
                                             
                                             <div class="fun-fact">
@@ -53,7 +53,7 @@ export default () =>  (
 
                                         </div>
                                     
-                                        <div class="col-xs-6 col-sm-3">
+                                        <div class="col-xs-12 col-sm-4">
 
                                         
                                             <div class="fun-fact">
@@ -63,18 +63,6 @@ export default () =>  (
                                         
 
                                         </div>
-                                    
-                                        <div class="col-xs-6 col-sm-3">
-
-                                        
-                                            <div class="fun-fact">
-                                                <i class="pw-icon-thumbs-up"></i>
-                                                <h4>Freelance verfügbar</h4>
-                                            </div>
-                                        
-                                        </div>
-                                   
-
                                     
 
                                 </div>

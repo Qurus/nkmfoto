@@ -18,7 +18,7 @@ export default () => (
 
                             <div class="mfp-gallery pw-collage pw-collage-loading load-one-by-one" data-row-height="360" data-mobile-row-height="120" data-effect="effect-4">
                            
-                                <a href={require('../static/images/home/01.jpg')} title="Portrait of a young man, studio shooting.">
+                                <a href={require('../static/images/home/01.jpg')} title="image">
                                   <img src={require('../static/images/home/01.jpg')} width="500" height="500" alt="image" />
                                 </a>
                                 
